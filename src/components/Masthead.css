@@ -1,7 +1,38 @@
 .masthead-row {
-    margin-top: 5%;
+    position: relative;
+}
+
+.company-announcement-wrap {
+    position: absolute;
+    top: 30%;
+}
+
+.company-announcement-wrap__name {
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+
+.company-announcement-wrap__sub-title {
+    margin-bottom: 15px;
+    display: none;
 }
 
 .reach-out-btn {
+    display: none;
+    width: 50%;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient(to bottom right, #364be3, #9556bf);
+    color: white;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
 
+.office-img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

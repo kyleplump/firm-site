@@ -5,6 +5,7 @@ import Services from '../components/Services';
 import AboutUs from '../components/AboutUs';
 import 'antd/dist/antd.css';
 import './index.css';
+import 'animate.css';
 
 function Home() {
 
