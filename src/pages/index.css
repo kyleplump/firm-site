@@ -9,3 +9,7 @@
 .app {
     padding: 2% 5%;
 }
+
+.row--full-height {
+    padding-top: 10%;
+}

@@ -1,0 +1,26 @@
+.services-img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+.services-wrap {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.services-wrap__heading {
+    font-size: 40px;
+    text-align: right;
+    margin-bottom: 5%;
+}
+
+.services-wrap__subtitle {
+    font-size: 22px;
+    text-align: right;
+}
