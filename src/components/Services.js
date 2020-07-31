@@ -28,6 +28,7 @@ export default function Services() {
                 </Col>
                 <Col  xs={24} sm={24} md={24} lg={12} xl={12}>
                     <section className="services-wrap">
+                        
                         <h1 className="services-wrap__heading">A Solution To Every Problem</h1>
                         <p className="services-wrap__subtitle">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra vel lacus quis eleifend. 
@@ -36,6 +37,10 @@ export default function Services() {
                         </p>
                     </section>
                 </Col>
+                <div className="triangle-1"></div>
+                <div className="triangle-2"></div>
+                <div className="triangle-3"></div>
+                <div className="triangle-4"></div>
             </Row>
         </VisibilitySensor>
     );

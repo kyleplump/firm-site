@@ -12,15 +12,81 @@
     right: 0;
     bottom: 0;
     display: none;
+    padding-left: 25%;
+    padding-right: 3%;
 }
 
 .services-wrap__heading {
-    font-size: 40px;
+    font-size: 34px;
+    color: white;
     text-align: right;
     margin-bottom: 5%;
 }
 
 .services-wrap__subtitle {
-    font-size: 22px;
+    font-size: 16px;
     text-align: right;
+    color: rgba(255,255, 255, 0.85);
 }
+
+.triangle-1 {
+    position: absolute;
+    width: 50%;
+    height: 71%;
+    background: linear-gradient(89.08deg, #9795EA 36.55%, rgba(255, 255, 255, 0) 151.8%), #CC53E0;
+    right: 0px;
+    top: 15%;
+    z-index: -1;
+    clip-path:polygon(100% 0, 0 51%, 100% 100%);
+}
+
+.triangle-2 {
+    position: absolute;
+    height: 31%;
+    width: 30%;
+    right: 20%;
+    bottom: 17%;
+    overflow: visible;
+    background:  linear-gradient(99.36deg, #9795EA 33.54%, rgba(255, 255, 255, 0) 128.3%), #CC53E0;
+    clip-path: polygon(81% 57%, 0 0%, 86% 100%);
+}
+
+.triangle-3 {
+    position: absolute;
+    width: 25%;
+    height: 30%;
+    right: 0%;
+    bottom: 0;
+    background: linear-gradient(177.53deg, #9795EA 10.02%, rgba(255, 255, 255, 0) 98.68%), #CC53E0;;
+    clip-path: polygon(1% 1%, 11% 75%, 130% 75%)
+}
+
+.triangle-4 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    right: 22%;
+    bottom: -3%;
+    background:  linear-gradient(215.03deg, #9795EA 22.31%, rgba(255, 255, 255, 0) 31.53%), #CC53E0;
+    clip-path:  polygon(92% 36%, 62% 0, 98% 76%);
+
+}
+
+/* .triangle-1 {
+    width: 30%;
+    padding-bottom: 21.27%; /* = width / 1.41 
+    position: relative;
+    overflow: hidden;
+}
+
+.triangle-1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0079C6;
+    transform-origin: 0 100%;
+    transform: rotate(45deg);
+} */

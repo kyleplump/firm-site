@@ -40,11 +40,6 @@ export default function Masthead() {
                 <img className="office-img animate__animated animate__slideInUp" src={officeLogo} alt="People Office" />
             </Col>
         </Row>
-        <div ><svg className="curve1" xmlns="http://www.w3.org/2000/svg">
-
-        <path stroke="red" d="M 800 -100 Q 150 50 202 198 Q 353 281 642 145 Q 775 95 640 272 C 450 550 250 200 140 332 Q 100 400 114 453  "></path>
-
-            </svg></div>
         </>
         
     );
