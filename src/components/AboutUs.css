@@ -13,15 +13,75 @@
     top: 25%;
     right: 0;
     display: none;
+    padding-left: 3%;
+    padding-right: 25%;
 }
 
 .about-us-wrap__heading {
-    font-size: 40px;
+    font-size: 34px;
     text-align: left;
     margin-bottom: 5%;
+    color: white;
 }
 
 .about-us-wrap__subtitle {
-    font-size: 22px;
+    font-size: 16px;
     text-align: left;
+    color: white;
+}
+
+.about-us-triangle-1 {
+    position: absolute;
+    width: 50%;
+    height: 71%;
+    left: 0;
+    z-index: -1;
+    bottom: 12%;
+    background: linear-gradient(-66.23deg, #9795EA -4.63%, rgba(255, 255, 255, 0) 74.85%), #CC53E0;
+    clip-path: polygon(100% 57%, 0 0%, 0 99%);
+
+}
+
+.about-us-triangle-2 {
+    width: 20%;
+    HEIGHT: 29%;
+    position: absolute;
+    top: 16%;
+    background: linear-gradient(328.51deg, #9795EA 28.92%, rgba(255, 255, 255, 0) 63.04%), #CC53E0;
+    clip-path: polygon(100% 0, 0 0, 76% 41%);
+}
+
+.about-us-triangle-3 {
+    width: 33%;
+    height: 23%;
+    position: absolute;
+    background: linear-gradient(328.51deg, #9795EA 28.92%, rgba(255, 255, 255, 0) 123.04%), #CC53E0;
+    left: 22%;
+    top: 35%;
+    -webkit-clip-path: polygon(100% 0, 19% 70%, 86% 93%);
+    clip-path: polygon(99% 0, 19% 15%, 86% 93%);
+}
+.about-us-triangle-4 {
+
+    width: 28%;
+    height: 31%;
+    position: absolute;
+    background: linear-gradient(328.51deg, #9795EA 28.92%, rgba(255, 255, 255, 0) 57.04%), #CC53E0;
+    left: 17%;
+    top: 16%;
+    -webkit-clip-path: polygon(97% 57%, 41% 69%, 0 16%);
+    clip-path: polygon(97% 63%, 40% 69%, 0 -35%);
+
+}
+
+.about-us-triangle-5 {
+    position: absolute;
+    left: 16%;
+    top: 6%;
+    width: 13%;
+    height: 43%;
+    background: linear-gradient(-66.23deg, #9795EA -4.63%, rgba(255, 255, 255, 0) 74.85%), #CC53E0;
+    -webkit-clip-path: polygon(92% 75%, 1% 52%, 35% 27%);
+    clip-path: polygon(92% 75%, 1% 52%, 35% 27%);
+
 }

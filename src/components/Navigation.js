@@ -10,10 +10,10 @@ export default function Navigation() {
             </div>
             <ul className="nav-items">
                 <li>
-                    Services
+                    <a href="#services">Services</a>
                 </li>
                 <li>
-                    About Us
+                    <a href="#about-us">About Us</a>
                 </li>
                 <li>
                     Contact

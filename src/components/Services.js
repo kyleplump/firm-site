@@ -22,7 +22,7 @@ export default function Services() {
 
     return (
         <VisibilitySensor onChange={visibilityChange}>
-            <Row className="row--full-height">
+            <Row id="services" className="row--full-height">
                 <Col  xs={24} sm={24} md={24} lg={12} xl={12}>
                     <img className="services-img" src={servicesImg} alt="Services Img" />
                 </Col>
@@ -37,10 +37,10 @@ export default function Services() {
                         </p>
                     </section>
                 </Col>
-                <div className="triangle-1"></div>
-                <div className="triangle-2"></div>
-                <div className="triangle-3"></div>
-                <div className="triangle-4"></div>
+                <div className="services-triangle-1"></div>
+                <div className="services-triangle-2"></div>
+                <div className="services-triangle-3"></div>
+                <div className="services-triangle-4"></div>
             </Row>
         </VisibilitySensor>
     );

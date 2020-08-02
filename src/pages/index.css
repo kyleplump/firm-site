@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #___gatsby, #gatsby-focus-wrapper, .app, .row--full-height {
     height: 100%;
     position: relative;
