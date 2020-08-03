@@ -37,8 +37,46 @@
     right: 0;
 }
 
-.curve1 {
-    width: 50%;
-    height: 50%;
-    overflow: visible !important;
+
+/* MEDIA QUERIES */
+
+@media screen and (max-height: 666px) {
+
+    .company-announcement-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company-announcement-wrap__name {
+        font-size: 60px;
+    }
+
+    .company-announcement-wrap__name, .company-announcement-wrap__sub-title {
+        text-align: center;
+    }
+
+    .office-img {
+        width: 85%;
+        right: auto;
+        left: 25px;
+    }
 }
+
+@media screen and (max-width: 991px) {
+
+    .company-announcement-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company-announcement-wrap__name {
+        font-size: 60px;
+    }
+
+    .company-announcement-wrap__name, .company-announcement-wrap__sub-title {
+        text-align: center;
+    }
+}
+

@@ -18,3 +18,12 @@ html {
 .row--full-height {
     padding-top: 10%;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-height: 991px) {
+
+    .app {
+        padding: 0;
+    }
+}

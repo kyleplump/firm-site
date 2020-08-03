@@ -6,16 +6,16 @@ import './AboutUs.css';
 
 function visibilityChange(isVisible) {
     
-    if(isVisible) {
-        let img = document.querySelector(".about-us-img");
-        let content = document.querySelector('.about-us-wrap');
-        if(img !== null) {
-            img.style.display = "block";
-            img.classList.add('animate__animated', 'animate__slideInRight');
-            content.style.display = "block";
-            content.classList.add('animate__animated', 'animate__slideInLeft');
-        }
-    }
+    // if(isVisible) {
+    //     let img = document.querySelector(".about-us-img");
+    //     let content = document.querySelector('.about-us-wrap');
+    //     if(img !== null) {
+    //         img.style.display = "block";
+    //         img.classList.add('animate__animated', 'animate__slideInRight');
+    //         content.style.display = "block";
+    //         content.classList.add('animate__animated', 'animate__slideInLeft');
+    //     }
+    // }
 }
 
 export default function AboutUs() {

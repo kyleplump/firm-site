@@ -12,3 +12,11 @@
     justify-content: space-around;
     list-style: none;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) {
+    .nav-items {
+        display: none;
+    }
+}
