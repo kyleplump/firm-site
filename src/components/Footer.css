@@ -1,0 +1,9 @@
+.footer {
+    display: flex !important;
+    justify-content: center;
+    background-color: #18226b;
+}
+
+.footer-text {
+    color: rgba(255,255,255,0.5);
+}

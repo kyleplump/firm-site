@@ -1,0 +1,52 @@
+.contact-us-wrap {
+    margin-top: 5%;
+    background-color: #ad7be5;
+}
+
+.contact-us-wrap__col {
+    display: flex !important;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -5%;
+}
+
+.contact-us__title {
+    font-size: 72px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* all the important to get around antd */
+
+.form__element {
+    margin-bottom: 3% !important;
+    border-radius: 10px !important;
+    min-height: 60px;
+    padding-left: 5% !important;
+}
+
+.form__element--textarea {
+    padding-top: 2% !important;
+    min-height: 200px !important;
+}
+
+.form__element--btn {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 15%;
+    border-radius: 90px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    background: linear-gradient(to bottom right, #364be3, #9556bf);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+
+}

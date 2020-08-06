@@ -20,7 +20,7 @@
     font-size: 34px;
     color: white;
     text-align: right;
-    margin-bottom: 5%;
+    font-family: 'Karla', sans-serif;
 }
 
 .services-wrap__subtitle {

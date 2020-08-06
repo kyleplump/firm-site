@@ -5,11 +5,13 @@
 .company-announcement-wrap {
     position: absolute;
     top: 30%;
+    padding-left: 5%;
 }
 
 .company-announcement-wrap__name {
     font-size: 72px;
     margin-bottom: 30px;
+    font-family: 'Karla', sans-serif;
 }
 
 .company-announcement-wrap__sub-title {
