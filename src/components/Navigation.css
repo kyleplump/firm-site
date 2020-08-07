@@ -27,8 +27,10 @@
     align-items: center;
 }
 
-.nav-item a {
-    color: #364be3;
+.nav-item p {
+    margin-bottom: 0;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 /* MEDIA QUERIES */

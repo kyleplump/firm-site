@@ -7,7 +7,7 @@ const { TextArea } = Input;
 function ContactUs() {
 
     return (
-        <Row className="contact-us-wrap row--full-height">
+        <Row id="contact" className="contact-us-wrap row--full-height">
             <Col xs={24} sm={24} md={24} lg={24} xl={24} className="contact-us-wrap__col">
                 <h1 className="contact-us__title">Let's Talk!</h1>
                 <div className="form">

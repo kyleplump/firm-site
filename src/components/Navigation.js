@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 import './Navigation.css';
 
 export default function Navigation() {
 
-    ;
 
     function checkIfTop() {
 
@@ -17,6 +17,7 @@ export default function Navigation() {
             }
         }
     }
+
 
     useEffect(() => {
 
@@ -34,13 +35,13 @@ export default function Navigation() {
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                    <a href="#services">Services</a>
+                    <p onClick={ () => scrollTo('#services')} >Services</p>
                 </li>
                 <li className="nav-item">
-                    <a href="#about-us">About Us</a>
+                    <p  onClick={ () => scrollTo('#about')} >About Us</p>
                 </li>
                 <li className="nav-item">
-                <a href="#about-us">Contact</a>
+                    <p onClick={ () => scrollTo('#contact')} >Contact</p>
                 </li>
             </ul>
         </nav>

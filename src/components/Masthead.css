@@ -20,6 +20,7 @@
 }
 
 .reach-out-btn {
+    cursor: pointer;
     display: none;
     width: 50%;
     margin-top: 15px;

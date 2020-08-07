@@ -23,7 +23,7 @@ export default function AboutUs() {
     return (
         <> 
             <VisibilitySensor onChange={visibilityChange}>
-                <Row id="about-us" className="row--full-height">
+                <Row id="about" className="row--full-height">
             
                     <Col  xs={24} sm={24} md={24} lg={12} xl={12}>
                     <section className="about-us-wrap">

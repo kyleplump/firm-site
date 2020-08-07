@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Row, Col } from 'antd';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 import './Masthead.css';
 import officeLogo from '../../static/img/people-office.jpg';
 
@@ -31,7 +32,7 @@ export default function Masthead() {
                     <h2 className="company-announcement-wrap__sub-title">
                         A Web Development And Design Company
                     </h2>
-                    <button className="reach-out-btn">
+                    <button className="reach-out-btn" onClick={() => scrollTo('#contact')}>
                         Reach Out
                     </button>
                 </section>
