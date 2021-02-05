@@ -4,6 +4,9 @@
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
+
+<h1>THIS REPOSITORY IS NOT CURRENT OR MAINTAINED - THE PROJECT IS MAINTAINED UNDER A DIFFERENT GITHUB ACCOUNT</h1>
+
 <h1 align="center">
   Gatsby's hello-world starter
 </h1>
